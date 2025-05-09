@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Study Companion</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <h2>📚 Study Panel</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Dashboard</a></li>
+          <li><a href="quiz.html">Create Quiz</a></li>
+        </ul>
+      </nav>
+      <button onclick="toggleDarkMode()" class="mode-toggle">🌓 Toggle Mode</button>
+    </aside>
+
+    <main class="main-content">
+      <header>
+        <h1>AI Study Companion</h1>
+      </header>
+
+      <div class="dashboard">
+        <section class="notes-section">
+          <h2>📝 To-Do List</h2>
+          <ul id="todo-list" class="todo-list"></ul>
+          <div class="todo-input">
+            <input type="text" id="todo-input" placeholder="Add a task..." />
+            <button onclick="addTodo()">➕</button>
+          </div>
+        </section>
+
+        <section class="ai-section">
+          <textarea id="question" placeholder="Ask your study question..."></textarea>
+          <button onclick="askAI()">Ask AI</button>
+          <div id="response" class="response-box"></div>
+
+          <div class="flashcard-actions">
+            <button onclick="saveFlashcard()">📌 Make Flashcard</button>
+            <button onclick="exportFlashcardsToPDF()">📄 Export Flashcards</button>
+          </div>
+
+          <h2 class="section-title">📚 Flashcards</h2>
+          <div id="flashcards" class="flashcards-list"></div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
