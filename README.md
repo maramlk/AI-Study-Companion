@@ -24,6 +24,11 @@ AI Study Companion is a web-based productivity and learning tool designed to hel
 - **Backend**: Node.js, Express
 - **AI**: OpenAI API (GPT-3.5)
 - **PDF Generation**: [html2pdf.js](https://www.npmjs.com/package/html2pdf.js)
+  
+## 📸 Demo Preview
+![image](https://github.com/user-attachments/assets/380e70c1-8d77-421a-840e-21cfa86fd63b)
+![image](https://github.com/user-attachments/assets/2710282a-e879-434b-a17f-f2c45ddbb1b1)
+
 
 - ## Getting Started
 Follow these steps to run the project locally:
