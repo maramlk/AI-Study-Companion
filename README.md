@@ -1,4 +1,4 @@
-# 📚 AI Study Companion
+# AI Study Companion
 
 ![Status](https://img.shields.io/badge/status-in--progress-yellow) ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 
@@ -25,9 +25,6 @@ AI Study Companion is a web-based productivity and learning tool designed to hel
 - **AI**: OpenAI API (GPT-3.5)
 - **PDF Generation**: [html2pdf.js](https://www.npmjs.com/package/html2pdf.js)
   
-## 📸 Demo Preview
-![image](https://github.com/user-attachments/assets/380e70c1-8d77-421a-840e-21cfa86fd63b)
-![image](https://github.com/user-attachments/assets/2710282a-e879-434b-a17f-f2c45ddbb1b1)
 
 
 - ## Getting Started
